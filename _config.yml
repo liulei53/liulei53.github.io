@@ -2,15 +2,15 @@
 title: lei'blog
 description: "一个喜欢开源和折腾的工程师"
 url: https://tw93.fun
-repo: tw93/tw93.github.io
+repo: liulei53/liulei53.github.io
 lang: zh-CN
 timezone: Africa/El_Aaiun
 
 # Social Media and External URLs
-github: tw93
-zhihu: tw93
-twitter: HiTw93
-v2ex: tw93
+github: liulei53
+zhihu: liu-lei-80-66
+twitter: Bob_Dreamer
+v2ex: liulei53
 menu:
   - title: "Categories"
     url: "/categories.html"
