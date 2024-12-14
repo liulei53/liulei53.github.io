@@ -18,7 +18,6 @@ menu:
     url: "/about.html"
   - title: "Weekly"
     url: "https://weekly.liulei.org/"
-
 # SEO and Analytics
 google_analytics: G-KS7EDB6BRM
 
@@ -65,7 +64,8 @@ plugins:
   - jekyll-feed
 
 # Custom Site Settings
-showBuyCoffee: true
+
 payImage: //gw.alipayobjects.com/zos/k/vb/1.png
 assetUrl: //tw93.fun/images/
 defaultImage: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+
