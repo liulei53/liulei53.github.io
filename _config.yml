@@ -1,7 +1,7 @@
 # Site Information
 title: lei blog
 description: "一个喜欢开源和折腾的工程师"
-url: https://liulei53.github.io
+url: https://blog.liulei.org
 repo: liulei53/liulei53.github.io
 lang: zh-CN
 timezone: Africa/El_Aaiun
@@ -17,7 +17,7 @@ menu:
   - title: "About"
     url: "/about.html"
   - title: "Weekly"
-    url: "https://weekly.tw93.fun/"
+    url: "https://weekly.liulei.org/"
 
 # SEO and Analytics
 google_analytics: G-KS7EDB6BRM
