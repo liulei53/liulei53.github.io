@@ -45,6 +45,6 @@ tags: [学习]
 <img src="https://img.netok.xyz/1734596449517.jpg" width="600">
 
 推荐一个软件Obsidian，搜索关键词汇“打造知识体系 obsidian”  
-<img src="https://img.netok.xyz/1734596550022.png" width="800">
+<img src="https://img.netok.xyz/1734656441233.png" width="800">
 
 文章原文请关注每周一发布的潮流周刊weekly
