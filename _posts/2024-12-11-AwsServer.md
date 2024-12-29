@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "如何白嫖AWS亚马逊云搭建个人博客或个人网站"
-date: 2024-12-10
+date: 2024-12-11
 summary: 当别人喜欢钓鱼、盘串的时候，搞一台服务器玩玩吧，最重要的还不花钱！
 categories: [学习分享]
 tags: [学习]
