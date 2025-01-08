@@ -312,8 +312,9 @@ sudo tail -f /var/log/letsencrypt/letsencrypt.log
 
 ## 踩的一个坑
 
-必须提前下载# 下载初始数据库文件。这个问题让我百思不得其解，浪费了几个小时的时间，一直以为是目录权限的问题。原来是还缺少这么一个数据库文件。
+必须提前下载metadata.db放在books目录下。问题是登录后选择配置文件保存的目录，一直提示DB存放的路径不合法。这个问题让我百思不得其解，浪费了几个小时的时间，一直以为是目录权限的问题。原来是还缺少这么一个数据库文件。
 ```bash
+# 下载初始数据库文件
 wget https://raw.githubusercontent.com/janeczku/calibre-web/master/library/metadata.db -O books/metadata.db
 
 # 设置权限，所有者和所属组更改为 UID 和 GID 为 1000 的用户和组。
