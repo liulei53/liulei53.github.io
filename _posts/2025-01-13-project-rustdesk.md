@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "十分钟使用docker自建远程桌面访问服务器-Rustdesk："
+title: "十分钟使用docker自建远程桌面访问服务器-Rustdesk"
 date: 2025-01-13
 summary: 手头有好几台电脑和终端散落在家里和公司，使用远程桌面软件把它们用起来。
 categories: [学习分享]
