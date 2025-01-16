@@ -3,7 +3,7 @@ layout: post
 title: "《海龟交易法则》-读书分享"
 date: 2025-01-15
 summary: 我知道很多驰骋市场多年的交易者居然是没有交易系统的，凭得就是梁静茹的勇气。
-categories: [读书分享]
+categories: [读书笔记]
 tags: [读书]
 ---
 
