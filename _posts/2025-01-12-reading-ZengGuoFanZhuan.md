@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "《曾国藩传》-读书分享"
+title: "《曾国藩传》-读书笔记"
 date: 2025-01-12
 summary: 曾公以其强大的个人魅力和高尚的节操洗涤了我、感染了我。
 categories: [读书笔记]
