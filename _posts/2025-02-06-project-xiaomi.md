@@ -106,7 +106,7 @@ docker restart homeassistant  # 重启 Home Assistant
 
 **安装小米集成**
 
-在HACS中搜索“xiaomi miot”，根据提示一步一步安装，者其中会让登录GitHub授权，需要有github账号。授权过程中可能会提示“could_not_register“，这是因为网络原因，如果服务器可以访问外网则不会提示。可以多试几次就可以完成。过程中会要求输入小米账号和密码。
+在HACS中搜索“xiaomi miot”，根据提示一步一步安装，者其中会让登录GitHub授权，需要有github账号。授权过程中可能会提示“could_not_register“，这是因为网络原因，如果服务器可以访问外网则不会提示。可以多试几次就可以完成。过程中会要求输入小米账号和密码。这一步完成之后，米家app里那些设备就会出现在homeassistant平台里面啦。
 
 ## 三、安装HomeKit
 
@@ -119,3 +119,38 @@ docker restart homeassistant  # 重启 Home Assistant
 使用iPhone的家庭app，扫码添加即可。
 
 这样操作下来，可以在iPhone和ipad上远程操控家里的任何智能设备。
+
+
+
+20250207更新
+
+---
+
+**界面美化-主题安装**
+
+**（1）打开主题功能**
+
+今天看着界面太丑了，想着更换一下主题，就这也遇到了些许小问题。
+
+更换主题的步骤：点击右下角用户——浏览器设置——主题，此时我发现主题选项是灰色不可用状态。原因是需要在configuration.yaml文件里面打开这个功能。
+
+```bash
+#找到配置目录
+cd /homeassistant/config/
+#编辑configuration.yaml文件，编辑之前做好备份一下
+cp configuration.yaml configuration.yaml.bak
+vi configuration.yaml
+#添加这两行代码，打开主题功能
+frontend:
+  themes: !include_dir_merge_named /config/www/community/
+#重启homeassistant
+docker restart homeassistant
+```
+
+回到web UI界面，再去更换主题，就可以啦。
+
+**（2）下载安装主题**
+
+我的Ubuntu server没有配置VPN，所以从GitHub下载主题很慢，甚至连接不上。于是我用Mac下载了zip包再传到ubuntu上去。主题的目录是～/homeassistant/config/www/community。下载好主题解压之后，放在这个目录下面就可以啦。PS：记得重启homeassistant。下图就是我安装的IOS-dark主题。
+
+![image-20250207173206263](https://weekly-liulei.oss-cn-beijing.aliyuncs.com/images/20250207173311732.png)
